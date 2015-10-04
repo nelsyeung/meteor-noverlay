@@ -1,0 +1,40 @@
+body {
+	background-color: #03A9F4;
+	color: #FFF;
+	text-align: center;
+	font-family: sans-serif;
+}
+
+h1 {
+	font-size: 5em;
+}
+
+button {
+	padding: 15px 30px;
+	background-color: transparent;
+	border: 2px solid #FFF;
+	color: #FFF;
+	font-weight: bold;
+	font-size: 1em;
+	transition: all 0.2s;
+	cursor: pointer;
+}
+
+button:hover {
+	background-color: #FFF;
+	color: #03A9F4;
+}
+
+.overlay {
+	color: #000;
+}
+
+.overlay button {
+	border: 2px solid #03A9F4;
+	color: #03A9F4;
+}
+
+.overlay button:hover {
+	background-color: #03A9F4;
+	color: #FFF;
+}
