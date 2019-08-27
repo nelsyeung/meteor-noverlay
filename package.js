@@ -1,8 +1,8 @@
 Package.describe({
-	name: 'nelsyeung:noverlay',
-	version: '0.1.0',
+	name: 'mohkamfer:noverlay',
+	version: '0.1.1',
 	summary: 'Meteor nice overlay library for rendering templates in an overlay',
-	git: 'https://github.com/nelsyeung/meteor-noverlay.git',
+	git: 'https://github.com/mohkamfer/meteor-noverlay.git',
 	documentation: 'README.md'
 });
 
@@ -17,6 +17,6 @@ Package.onUse(function(api) {
 Package.onTest(function(api) {
 	api.use('ecmascript');
 	api.use('tinytest');
-	api.use('nelsyeung:noverlay');
+	api.use('mohkamfer:noverlay');
 	api.addFiles('test/noverlay-tests.js');
 });
