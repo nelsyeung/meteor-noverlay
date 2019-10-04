@@ -1,6 +1,6 @@
 Package.describe({
 	name: 'nelsyeung:noverlay',
-	version: '0.1.0',
+	version: '0.2.0',
 	summary: 'Meteor nice overlay library for rendering templates in an overlay',
 	git: 'https://github.com/nelsyeung/meteor-noverlay.git',
 	documentation: 'README.md'
